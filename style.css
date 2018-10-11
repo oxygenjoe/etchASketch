@@ -1,0 +1,32 @@
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;;
+  border-style: solid;
+  color:white;
+  height:  width: calc(100% * (1/16) - 10px - 1px);;
+  width: calc(100% * (1/16) - 10px - 1px);
+}
+
+body{
+  padding-top:10%;
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  height: 40%;
+  width:40%;
+  overflow: scroll;
+  border-style: dotted;
+  justify-content: center;
+  align-items:center;
+}
+
+body.colored{
+  background-color: white;
+}
+
+ .colored {
+  background-color: black;
+  color:black;
+}
